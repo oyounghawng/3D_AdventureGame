@@ -12,7 +12,7 @@ public class PlayerConditions : MonoBehaviour, IDamagable
 {
     public UICondition uiCondition;
 
-    Condition health { get { return uiCondition.health; } }
+    public Condition health { get { return uiCondition.health; } }
 
     public event Action onTakeDamage;
 
